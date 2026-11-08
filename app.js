@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const router = require('./routes/itemRoute')
+const router = require('./routes/itemRoute.js')
 const errorHandler = require("./middlewares/errorHandler")
 const cors = require('cors')
 
